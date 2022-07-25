@@ -5,16 +5,18 @@ div {
 
 .choc {
     background-color: brown;
+    border-radius: 5px;
     height: 5%;
-    width: 70%;
 }
 
 .van {
     background-color: blanchedalmond;
+    border-radius: 5px;
     height: 5%;
 }
 
 .straw {
     background-color: pink;
+    border-radius: 5px;
     height: 5%;
 }

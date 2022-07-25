@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import './adDesigner.css';
+import Ad from './ad';
 
 export function AdDesigner () {
     const [font, setFont] = useState(20)
@@ -44,10 +45,7 @@ export function AdDesigner () {
     return (
         <div>
             <h2>Ad Designer</h2>
-            <div className={`poster ${addClass}`}>
-                <p>Vote for</p>
-                <h2 style={{fontSize: `${font}px`}}>{adName}</h2>
-            </div>
+                <Ad darkTheme={addClass} adName={adName} font={font}/>
             <h3>What to Support</h3>
                 <div className='btn-holder'>
                 <button onClick={setToChoc} disabled={adName === 'Chocolate' ? true : false}>Chocolate</button>
