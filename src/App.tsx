@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { AdDesigner } from './adDesigner';
+import { Votes } from './votes';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+      </style>
+      <header className="header"><h1>Ice Cream Wars</h1></header>
+      <div className='pageBody'>
+      <div className='designer'>
+      <AdDesigner />
+      </div>
+      <div className='votes'>
+      <Votes />
+      </div>
+      </div>
+
     </div>
   );
 }

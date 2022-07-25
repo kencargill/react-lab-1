@@ -1,0 +1,23 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.poster {
+    border: #222 solid 2px;
+    align-items: center;
+    color: #000;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.darkMode {
+    background-color: #222;
+    color: #fff;
+}
+
+h3 {
+    margin: 5px;
+}

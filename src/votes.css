@@ -1,0 +1,20 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.choc {
+    background-color: brown;
+    height: 5%;
+    width: 70%;
+}
+
+.van {
+    background-color: blanchedalmond;
+    height: 5%;
+}
+
+.straw {
+    background-color: pink;
+    height: 5%;
+}
