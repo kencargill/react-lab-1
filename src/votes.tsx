@@ -34,21 +34,21 @@ export function Votes () {
             </div>
             <div className='bar-holder'>
                 { chocVal > 0 && 
-                <div><label htmlFor='choc bar'>Chocolate: {chocVal}, {chocPercent}%</label>
+                <div><label htmlFor='choc bar'>Chocolate: {chocVal}, {chocPercent.toFixed(1)}%</label>
                 <div className='choc' style={{
                     width: `${chocPercent}%`,
                     height: '30px'
                 }}></div></div>
                 }
                 { vanVal > 0 && 
-                <div><label htmlFor='van bar'>Vanilla: {vanVal}, {vanPercent}%</label>
+                <div><label htmlFor='van bar'>Vanilla: {vanVal}, {vanPercent.toFixed(1)}%</label>
                 <div className='van' style={{
                     width: `${vanPercent}%`,
                     height: '30px'
                 }}></div></div>
                 }
                 {strawVal > 0 &&
-                <div><label htmlFor='straw bar'>Strawberry: {strawVal}, {strawPercent}%</label>
+                <div><label htmlFor='straw bar'>Strawberry: {strawVal}, {strawPercent.toFixed(1)}%</label>
                 <div className='straw' style={{
                     width: `${strawPercent}%`,
                     height: '30px'
